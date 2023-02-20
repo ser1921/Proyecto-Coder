@@ -4,7 +4,7 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-/*HEADER*/
+/*BARRA NAV*/
 .estilonav {
     background-color: rgb(148, 100, 166);
 }
@@ -30,25 +30,22 @@ body {
 
 /*SEDES*/
 
-.mapas{
+.mapas {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.ulmio{
+.ulmio {
     list-style-type: none;
 }
 
 
 /* COMENTARIOS*/
 
-.imgcomentarios{
-    width: 550px;
-    height: 400px;
+.imgcomentarios {
     border-radius: 50%;
 }
-
 
 /*FOOTER*/
 
