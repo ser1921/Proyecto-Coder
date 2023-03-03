@@ -33,6 +33,19 @@ body {
   border-radius: 50%;
 }
 
+form {
+  font-size: 25px;
+}
+
+input, textarea {
+  background-color: rgb(148, 100, 166);
+  border: 1px solid black;
+}
+
+::placeholder {
+  color: rgb(39, 31, 31);
+}
+
 .imgtestimonio {
   width: 110px;
   height: 140px;
@@ -51,6 +64,11 @@ body {
 .imgreglamento {
   width: 600px;
   height: 350px;
+}
+
+p:hover {
+  font-weight: bolder;
+  font-size: larger;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -4,3 +4,16 @@
 .imgcomentarios {
 	border-radius: 50%;
 }
+
+form{ 
+	font-size: 25px;	
+}
+
+input, textarea{
+	background-color:$background-color_1;
+	border: 1px solid black;
+	}
+
+	::placeholder{
+		color: rgb(39, 31, 31);
+	}
