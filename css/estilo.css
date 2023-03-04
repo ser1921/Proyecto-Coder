@@ -31,10 +31,11 @@ body {
 
 .imgcomentarios {
   border-radius: 50%;
+  width: 500px;
 }
 
 form {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 input, textarea {
@@ -47,12 +48,12 @@ input, textarea {
 }
 
 .imgtestimonio {
-  width: 110px;
+  width: 140px;
   height: 140px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 30%;
+  border-radius: 50%;
 }
 
 .mapas {
@@ -66,7 +67,7 @@ input, textarea {
   height: 350px;
 }
 
-p:hover {
+.parraf:hover {
   font-weight: bolder;
   font-size: larger;
 }
