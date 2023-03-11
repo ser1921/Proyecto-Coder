@@ -1,3 +1,18 @@
 .estilonav {
 	background-color: $background-color_1;
 }
+
+
+@mixin anclas {
+	text-decoration: none;
+	color: black;
+	transition: all 0.3s ease;
+	font-size: large;
+	color: $color_1;
+	
+}
+
+a{@include anclas
+	
+}
+

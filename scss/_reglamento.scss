@@ -3,7 +3,22 @@
     height: 350px;
 }
 
-.parraf:hover{
-    font-weight: bolder;
-    font-size: larger;    
+
+@mixin parrafos{
+    font-size: 1.2rem;
+    
+
 }
+
+p{
+    @include parrafos;
+    &:hover{
+        font-weight: bolder;
+        font-size: larger; 
+        color: $color_2;  
+        transition: 4s;
+    }
+
+}
+
+
